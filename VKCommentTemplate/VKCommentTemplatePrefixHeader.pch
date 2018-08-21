@@ -1,0 +1,48 @@
+//
+//  LotteryPrefixHeader.pch
+//  Lottery
+//
+//  Created by macbook on 2018/1/9.
+//  Copyright © 2018年 小明. All rights reserved.
+//
+
+#ifndef VKCommentTemplatePrefixHeader_pch
+#define VKCommentTemplatePrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Masonry.h"
+#import "YYKit.h"
+#import "UIView+VK.h"
+#import "UIColor+VK.h"
+
+#define kGAP 10
+#define kAvatar_Size 50
+
+#define VideoStatusbarH 44
+
+#define iPhoneX_Screen             (kScreenHeight == 812)
+#define NavibarH (iPhoneX_Screen ? 44 : 20)
+
+#define BottomH 34
+
+#define k750Scale (kScreenWidth/375.0)
+#define k750AdaptationFont(size) ([UIFont systemFontOfSize:size * k750Scale])
+#define k750AdaptationBoldFont(size) ([UIFont boldSystemFontOfSize:size * k750Scale])
+#define k750AdaptationWidth(a) ((a/2.0) * k750Scale)
+
+
+#define Comment_SmallComment [UIFont systemFontOfSize:12]
+#define Comment_BigComment [UIFont systemFontOfSize:14]
+#define Comment_TimeFont [UIFont systemFontOfSize:14]
+#define Comment_nameFont [UIFont systemFontOfSize:14]
+
+#define Comment_name_H 20
+#define Comment_time_H 20
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LotteryPrefixHeader_pch */
