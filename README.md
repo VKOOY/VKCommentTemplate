@@ -12,4 +12,6 @@ The functions used in the recent project have been extracted separately.
 最近项目里面用到的功能，把它单独提取出来了。
 
 
+![image](https://github.com/VKOOY/VKCommentTemplate/blob/master/Images/Image01.png)
 
+![image](https://github.com/VKOOY/VKCommentTemplate/blob/master/Images/Image02.png)
